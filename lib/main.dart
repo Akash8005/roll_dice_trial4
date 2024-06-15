@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:roll_dice_trial4/gradient_container.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text("Tech sign solutions pvt ltd"),
-        ),
+        body: GradientContainer(Colors.black, Colors.yellow),
       ),
     ),
   );
