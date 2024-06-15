@@ -27,6 +27,10 @@ class _RollDice extends State<RollDice> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          StyledText("Tech sign solutions pvt ltd"),
+          const SizedBox(
+            height: 30,
+          ),
           Image.asset(
             currentState,
             width: 200,
